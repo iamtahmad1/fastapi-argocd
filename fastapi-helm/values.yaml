@@ -5,8 +5,8 @@
 replicaCount: 1
 
 image:
-  repository: iamtahmad1/fastapi-test
-  pullPolicy: IfNotPresent
+  repository: iamtahmad1/fastapi
+  pullPolicy: Always
   # Overrides the image tag whose default is the chart appVersion.
   tag: ""
 
